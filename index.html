@@ -29,7 +29,7 @@
 				<div class="navbar-header">
 
 					<a class="navbar-brand" href="index.html">
-						<img src="img/la-chouette-agence.svg" alt="image d'une chouette" title="retour à l'acceuil" height="40" />
+						<img role="link" src="img/la-chouette-agence.svg" alt="image d'une chouette" height="40" />
 					</a>
 
 					<button aria-label="menu" id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse"
@@ -43,7 +43,7 @@
 				<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 					<ul class="site-navigation nav navbar-nav">
 						<li>
-							<a href="index.html">Accueil</a>
+							<a href="index.html"><u>Accueil</u></a>
 						</li>
 						<li>
 							<a href="contact.html">Contact</a>
@@ -69,9 +69,9 @@
 						<h1 class="text-center hero-bloc-text tc-white ">
 							La chouette agence.
 						</h1>
-						<div class="text-center">
+						<div role="button" aria-label="aller à la page de contact ?" class="text-center">
 							<a href="contact.html" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine"
-								id="cta-hero">Contact</a>
+								id="cta-hero" title="aller à la page de contact ?">Contact</a>
 						</div>
 					</div>
 				</div>
@@ -157,8 +157,8 @@
 							aient besoin de créer un site de A à Z ou de donner un coup de jeune à leur site. Que vous
 							ayez besoin d’une identité visuelle complète ou d’une refonte de votre site, n’hésitez pas à
 							nous contacter. Nous travaillerons ensemble pour créer des sites beau et bien structurés,
-							qui seront facilement trouvable sur les moteurs de recherche. <br><br><a
-								class="ltc-white bold-link" href="contact.html">Contactez notre équipe</a><br>
+							qui seront facilement trouvable sur les moteurs de recherche. <br><br>
+							<a role="link" class="ltc-white bold-link" href="contact.html" aria-label="aller à la page de contact ?" title="aller à la page de contact ?">Contactez notre équipe</a><br>
 						</p>
 					</div>
 				</div>
@@ -178,8 +178,8 @@
 				<div class="row tight-width-whitespace portfolio-row">
 					<article class="col-sm-6">
 						<a href="#" data-lightbox="img/journaux.jpg" data-gallery-id="gallery-1"
-							data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb"><img
-								src="img/journaux.jpg" alt="image de journaux" class="img-responsive portfolio-thumb" width="270" height="270"/>
+							data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb">
+							<img role="link" src="img/journaux.jpg" alt="image de journaux" class="img-responsive portfolio-thumb" title="developper ?" width="270" height="270"/>
 						</a>
 						<h3 class="mg-md text-center">
 							Refonte d'un site web pour un journal local
@@ -191,8 +191,8 @@
 					<article class="col-sm-6">
 						<a href="#" data-lightbox="img/shooting.jpg" data-gallery-id="gallery-1"
 							data-caption="Création d'un site web pour photographes" data-frame="snapshot-lb"><img
-								src="img/shooting.jpg" class="img-responsive portfolio-thumb"
-								alt="shooting photo" width="270" height="270"/></a>
+								role="link" src="img/shooting.jpg" class="img-responsive portfolio-thumb"
+								alt="shooting photo" title="developper ?" width="270" height="270"/></a>
 						<h3 class="mg-md text-center">
 							Création d'un site web pour photographes
 						</h3>
@@ -203,8 +203,8 @@
 					<article class="col-sm-6">
 						<a href="#" data-lightbox="img/accessoires.jpg" data-gallery-id="gallery-1"
 							data-caption="Création d'un site internet pour un voyageur" data-frame="snapshot-lb"><img
-								src="img/accessoires.jpg" class="img-responsive portfolio-thumb"
-								alt="utiliaire pour voyageur" width="270" height="270" /></a>
+								role="link" src="img/accessoires.jpg" class="img-responsive portfolio-thumb"
+								alt="utiliaire pour voyageur" title="developper ?" width="270" height="270" /></a>
 						<h3 class="mg-md text-center">
 							Création d'un site internet pour un voyageur
 						</h3>
@@ -216,8 +216,8 @@
 					<article class="col-sm-6">
 						<a href="#" data-lightbox="img/website.jpg" data-gallery-id="gallery-1"
 							data-caption="Conception d'un site pour une agence de mariage" data-frame="snapshot-lb"><img
-								src="img/website.jpg" class="img-responsive portfolio-thumb"
-								alt="site web agence de mariage" width="270" height="270" /></a>
+								role="link" src="img/website.jpg" class="img-responsive portfolio-thumb"
+								alt="site web agence de mariage" title="developper ?" width="270" height="270" /></a>
 						<h3 class="mg-md text-center">
 							Conception d'un site pour une agence de mariage
 						</h3>
@@ -238,9 +238,9 @@
 					<h2 class="mg-md text-center tc-white">
 						Prêt pour redonner vie à votre projet ?<br>Contactez notre équipe !
 					</h2>
-					<div class="col-sm-12 text-center">
+					<div role="button" aria-label="aller à la page de contact ?" class="col-sm-12 text-center">
 						<a href="contact.html"
-							class="btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero">Contact</a>
+							class="btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero" title="aller à la page de contact ?">Contact</a>
 					</div>
 				</div>
 			</div>
@@ -249,12 +249,6 @@
 
 	</main>
 	<!-- main END -->
-
-	<!-- ScrollToTop Button -->
-	<a aria-label="haut de page" class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')">
-		<span class="fa fa-chevron-up"></span>
-	</a>
-	<!-- ScrollToTop Button END-->
 	
 	<!-- Footer -->
 	<footer role="contentinfo" aria-label="footer navigation" class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
@@ -265,29 +259,29 @@
 						La Chouette agence<br>
 						2 place Sathonay 69001 Lyon<br>
 						Ouvert de 9h à 18h, du lundi au vendredi<br>
-						<a class="text-center white" href="mailto:contact@lachouetteagence.com">contact@lachouetteagence.com</a><br>
+						<a class="text-center white" href="mailto:contact@lachouetteagence.com" title="envoyer un mail ?">contact@lachouetteagence.com</a><br>
 					</address>
 				</div>
 
 				<div class="row row-no-gutters social">
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a aria-label="suivez-nous sur twitter" title="suivez-nous sur twitter" class="social" href="#"><span class="fa fa-twitter icon-md"></span></a>
+							<a aria-label="suivez-nous sur twitter" title="suivez-nous sur twitter" class="social" href="#"><span role="link" class="fa fa-twitter icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a aria-label="suivez-nous sur facebook" title="suivez-nous sur facebook" class="social" href="#"><span class="fa fa-facebook icon-md"></span></a>
+							<a aria-label="suivez-nous sur facebook" title="suivez-nous sur facebook" class="social" href="#"><span role="link" class="fa fa-facebook icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a  aria-label="suivez-nous sur dribble" title="suivez-nous sur dribble" class="social" href="#"><span class="fa fa-dribbble icon-md"></span></a>
+							<a  aria-label="suivez-nous sur dribble" title="suivez-nous sur dribble" class="social" href="#"><span role="link" class="fa fa-dribbble icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a aria-label="suivez-nous sur instagram" title="suivez-nous sur instagram" class="social" href="#"><span class="fa fa-instagram icon-md"></span></a>
+							<a aria-label="suivez-nous sur instagram" title="suivez-nous sur instagram" class="social" href="#"><span role="link" class="fa fa-instagram icon-md"></span></a>
 						</div>
 					</div>
 				</div>
@@ -295,6 +289,13 @@
 		</div>
 	</footer>
 	<!-- Footer END -->
+
+	<!-- ScrollToTop Button -->
+	<button aria-label="haut de page" class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')">
+		<span class="fa fa-chevron-up"></span>
+	</button>
+	<!-- ScrollToTop Button END-->
+	
 	<!-- script -->
 
 	<script src="./js/jquery-2.1.0.min.js" defer></script>

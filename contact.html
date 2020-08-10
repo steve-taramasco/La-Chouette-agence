@@ -27,7 +27,7 @@
 			<nav role="navigation" aria-label="main navigation" class="navbar row">
 				<div class="navbar-header">
 					<a class="navbar-brand" href="index.html">
-						<img src="img/la-chouette-agence.svg" alt="image d'une chouette" height="40" />
+						<img role="link" src="img/la-chouette-agence.svg" alt="image d'une chouette" title="retour à l'acceuil" height="40" />
 					</a>
 					<button aria-label="menu" id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse"
 						data-target=".navbar-1" aria-haspopup="true" >
@@ -43,7 +43,7 @@
 							<a href="index.html">Accueil</a>
 						</li>
 						<li>
-							<a href="contact.html">Contact</a>
+							<a href="contact.html"><u>Contact</u></a>
 						</li>
 					</ul>
 				</div>
@@ -112,12 +112,6 @@
 
 	<!-- main END -->
 
-	<!-- ScrollToTop Button -->
-	<a aria-label="haut de page" class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')">
-		<span class="fa fa-chevron-up"></span>
-	</a>
-	<!-- ScrollToTop Button END-->
-
 	<!-- Footer -->
 
 	<footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
@@ -128,29 +122,29 @@
 						La Chouette agence<br>
 						2 place Sathonay 69001 Lyon<br>
 						Ouvert de 9h à 18h, du lundi au vendredi<br>
-						<a class="text-center white" href="mailto:contact@lachouetteagence.com">contact@lachouetteagence.com</a><br>
+						<a class="text-center white" href="mailto:contact@lachouetteagence.com" title="envoyer un mail ?">contact@lachouetteagence.com</a><br>
 					</address>
 				</div>
 
 				<div class="row row-no-gutters social">
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a aria-label="suivez-nous sur twitter" title="suivez-nous sur twitter" class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
+							<a aria-label="suivez-nous sur twitter" title="suivez-nous sur twitter" class="social" href="index.html"><span role="link" class="fa fa-twitter icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a aria-label="suivez-nous sur facebook" title="suivez-nous sur facebook" class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
+							<a aria-label="suivez-nous sur facebook" title="suivez-nous sur facebook" class="social" href="index.html"><span role="link" class="fa fa-facebook icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a aria-label="suivez-nous sur dribbble" title="suivez-nous sur dribbble" class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
+							<a aria-label="suivez-nous sur dribbble" title="suivez-nous sur dribbble" class="social" href="index.html"><span role="link" class="fa fa-dribbble icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a aria-label="suivez-nous sur instagram" title="suivez-nous sur instagram" class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
+							<a aria-label="suivez-nous sur instagram" title="suivez-nous sur instagram" class="social" href="index.html"><span role="link" class="fa fa-instagram icon-md"></span></a>
 						</div>
 					</div>
 				</div>
@@ -160,6 +154,12 @@
 
 	<!-- Footer END-->
 
+	<!-- ScrollToTop Button -->
+	<button aria-label="haut de page" class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')">
+		<span class="fa fa-chevron-up"></span>
+	</button>
+	<!-- ScrollToTop Button END-->
+	
 	<!-- script -->
 
 	<script src="./js/jquery-2.1.0.min.js" defer></script>
